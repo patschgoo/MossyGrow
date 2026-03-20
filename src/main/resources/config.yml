@@ -1,0 +1,10 @@
+conversion:
+  enabled: true
+  near-water:
+    enabled: true
+    delay-seconds: 300
+    radius: 1
+  near-mossy-cobblestone:
+    enabled: true
+    delay-seconds: 180
+    radius: 1

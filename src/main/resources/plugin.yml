@@ -1,0 +1,16 @@
+name: MossyGrow
+version: 1.0
+main: dev.patschgo.mossycobble.MossyCobbleGrowPlugin
+author: patschgo
+description: Turns player-placed cobblestone into mossy cobblestone over time near water or mossy cobblestone.
+commands:
+  mossy:
+    description: Main command for MossyGrow.
+    usage: /<command> <reload|on|off>
+permissions:
+  mossy.reload:
+    description: Allows reloading MossyGrow config.
+    default: op
+  mossy.admin:
+    description: Allows toggling MossyGrow spreading on or off.
+    default: op
